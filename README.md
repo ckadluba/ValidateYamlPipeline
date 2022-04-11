@@ -19,7 +19,8 @@ To achieve this the script automates the following actions.
 # Setup and Usage
 
 1. In Azure DevOps UI create a PAT token in Azure DevOps that has the permission to __execute and read__ your existing pipeline in your project.
-   ![image](https://user-images.githubusercontent.com/10721825/162755251-70abac04-3307-48bf-8e95-0e1c11847759.png)![image](https://user-images.githubusercontent.com/10721825/162756012-7ebff55e-cb34-4a36-aae3-169ef49ad10e.png)
+   ![image](https://user-images.githubusercontent.com/10721825/162755251-70abac04-3307-48bf-8e95-0e1c11847759.png)
+   ![image](https://user-images.githubusercontent.com/10721825/162756012-7ebff55e-cb34-4a36-aae3-169ef49ad10e.png)
 1. Create the environment variable `ValidateYamlPipeline_PAT` containing the PAT token.
    ![image](https://user-images.githubusercontent.com/10721825/162756547-502105f4-2ab4-4a43-8eee-eaa1f9141f3c.png)
 1. Get the organisation, project name and pipeline ID from the Azure DevOps UI.
