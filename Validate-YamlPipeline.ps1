@@ -39,7 +39,7 @@ function CallYamlValidationApiWithBranch($orgName, $projectName, $pipelineId, $v
         "PreviewRun" = "true"
     }
 
-    $authString = 'Basic ' + [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(":" + $env:SystemTeamTools_TestPipelineYaml_PAT))
+    $authString = 'Basic ' + [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(":" + $env:ValidateYamlPipeline_PAT))
 
     $requestArgs = @{
         Method      = "POST"
